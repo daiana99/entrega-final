@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Generales*/
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #E0E5E9;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: inter;
+}
+
+.h2m{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 4.5vw;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.contenedor{
+    margin-top: 100px;
+}
+
+/*---------DIV 1----------*/
+
+.div_1{
+    padding-bottom: 10%;
+    margin-top: 2%;
+}
+
+/*Imagenes home div1*/
+.img1{
+    width: 25%;
+}
+
+.home_img2{
+    display: flex;
+    justify-content: right;
+}
+.img2{
+    width: 22%;
+}
+
+.img3{
+    width: 15%;
+}
+
+
+/*Titulo home*/
+.main_tittle{
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.main_description{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.tittle_home{
+    display: inline-block;
+    position: absolute;
+    top: 18vw;
+    right: 2%;
+    left: 2%;
+}
+
+
+/*---------DIV 2----------*/
+.div_2{
+    padding-bottom: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+/*Descripcion letra + hover imgs*/
+.imgs{
+    padding: 0.5%;
+    position: relative;
+    border-radius: 3%;
+}
+
+.imgs:hover .porfolio_description{
+    display: block;
+    border-radius: 3%;
+}
+
+.porfolio_description{
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 700;
+/*hover estilos*/
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    bottom: 1%;
+    right: 1%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    padding: 0.5%;
+    color: white;
+    border-radius: 3%;
+    transition: transform 250ms;
+}
+
+/*Botom centrado*/
+.buttom_normal{
+    display: flex;
+    justify-content: center;
+}
+
+/*Flex*/
+.porfolio_flex{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+
+.flex_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding-bottom: 2%;
+}
+
+.flex_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+
+/*Imagenes*/
+.porf_img1{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.porf_img2{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.img_flex2{
+    width: 100%;
+}
+
+.porf_img3{
+    width: 100%;
+}
+
+/*---------DIV 3----------*/
+.div_3{
+    padding-bottom: 10%;
+}
+
+/*flex*/
+.sobre_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    gap: 5%;
+}
+
+.cuerpo{
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+/*IMG Artista*/
+.cgs_img{
+    width: 20vw;
+}
+
+
+
+/*---------DIV 4 FORM----------*/
+.div_4{
+    padding-bottom: 10%;
+    margin-top: 5%;
+}
+
+
+
+/*FORM FLEX*/
+.flex_form1{
+    justify-content: center;
+    padding-top: 2%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.cuadro_flex1{
+    background-color: #ffffff;
+    border: none;
+    padding: 5% 100% 7% 5%;
+    margin-top: 2%;
+}
+
+textarea{
+    background-color: #ffffff;
+    border: none;
+    padding: 5% 103% 5% 4%;
+    margin-top: 2%;
+}
+
+.cuadro_flex2{
+    margin-bottom: 5%;
+}
+
+/*BUTTOM*/
+a{
+    text-decoration: none;
+}
+
+.buttom_center{
+    display: flex;
+    justify-content: center;
+    padding-left: 40%;
+}
+
+.buttom{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+.buttom:hover{
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .buttom:active{
+    background-color: white;
+  }
+
+
+/*---------footer----------*/
+
+.footer{
+    border-top: 1px solid black;
+    height: 2px;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.footertexto_1{
+    font-size: 1vw;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+
+.footertexto_2{
+    font-size: 0.5rem;
+    padding-bottom: 1%;
+
+}
+
+.display-2{
+    text-align: center;
+}
+
+
+
+
+/*------------>Estilos para tabletas 10pulgadas - VERTICAL*/
+@media (max-width: 1024px) {
+    /*------------------>HOME*/
+
+    /*HOME - Section 1 - Estilos*/
+    .contenedor{
+        margin-bottom: 100px;
+    }
+    .div_1{
+        margin-top: 5%;
+        height: 700px;
+    }
+    .main_tittle{
+        font-size: 15vw;
+        padding-top: 150px;
+    }
+    .tittle_home{
+        top:7vw;
+    }
+
+    .porfolio_description{
+        font-size: 20px;
+        top: 0.5%;
+        bottom: 0.5%;
+        left: 0.5%;
+        right: 0.5%
+    }
+
+        /*ESTILOS IMG - SECTION 1*/
+        .img1{
+            width: 250px;
+        }
+        .img2{
+            width: 250px;
+        }
+        .img3{
+            width: 200px;
+        }
+
+
+    /*HOME - Section 3 - Estilos*/
+    .sobre_flex{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .cgs_img{
+        width: 285px;
+        
+    }
+    
+
+    
+    /*HOME - FOOTER - ESTILOS*/
+    .footertexto_1{
+        font-size: 15px;
+    }
+    .footertexto_2{
+        font-size: 10px;
+    }
+
+
+    /*------------------>PORFOLIO*/
+    .section1-porfolio{
+        margin-top: 70px;
+    }
+
+    .flex_1{
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;   
+    }
+
+
+    /*------------------>CONTACTO*/
+    .flex_form1{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+
+
+/*------------>Estilos para tabletas pequeñas - VERTICAL*/
+@media (max-width: 600px) {
+    /*------------------>HOME*/
+
+    /*HOME - Section 1 - Estilos*/
+    .contenedor{
+        margin-bottom: 100px;
+    }
+    .div_1{
+        margin-top:50px;
+        height: 550px;
+    }
+    .main_tittle{
+        font-size: 20vw;
+        padding-top: 51px;
+    }
+    .tittle_home{
+        top:7vw;
+    }
+
+        /*ESTILOS IMG - SECTION 1*/
+        .img1{
+            width: 200px;
+        }
+        .img2{
+            width: 200px;
+        }
+        .img3{
+            width: 140px;;
+        }
+
+    /*HOME - Section 2 - Estilos*/
+    .porfolio_description{
+        font-size: 16px;;
+    }
+
+
+    /*HOME - Section 3 - Estilos*/
+    .sobre_flex{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cgs_img{
+        width: 285px;
+    }
+
+
+
+    /*HOME - FOOTER - ESTILOS*/
+    .footertexto_1{
+        font-size: 15px;
+    }
+    .footertexto_2{
+        font-size: 10px;
+    }
+
+
+    /*------------------>PORFOLIO*/
+    .section1-porfolio{
+        margin-top: 70px;
+    }
+
+    .flex_1{
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;   
+    }
+
+    .porfolio_description{
+        font-size: 16px;
+    }
+
+
+
+    /*------------------>CONTACTO*/
+
+    .flex_form1{
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+     .div_4{
+        padding-top: 50px;
+        padding-bottom: 60px;
+        }
+    }
+
+
+/*------------>Estilos para dispositivos moviles - HORIZONTAL*/
+@media (max-width: 480px) {
+    /*------------------>HOME*/
+    .div_1{
+        margin-top:100px;
+        height: 350px;
+    }
+
+    .main_tittle{
+        font-size: 15vw;
+        padding-top: 50px;
+    }
+    
+
+        /*ESTILOS IMG - SECTION 1*/
+        .img1{
+            width: 180px;
+        }
+        .img2{
+            width: 140px;
+        }
+        .img3{
+            width: 100px;;
+        }
+
+    /*HOME - Section 3 - Estilos*/
+    .sobre_flex{
+        flex-direction: column;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .cgs_img{
+        width: 285px;
+        
+    }
+
+    /*HOME - FOOTER - ESTILOS*/
+    .footertexto_1{
+        font-size: 15px;
+    }
+    .footertexto_2{
+        font-size: 10px;
+    }
+
+
+    /*------------------>PORFOLIO*/
+    .section1-porfolio{
+        margin-top: 70px;
+    }
+
+    .flex_1{
+        gap: 20px;
+    }
+
+    .flex_1{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .porfolio_description{
+        font-size: 16px;
+    }
+
+
+    /*------------------>CONTACTO*/
+
+    .flex_form1{
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+     .div_4{
+        padding-top: 50px;
+        padding-bottom: 60px;
+        }
+
+}
+
+
+/*------------>Estilos para dispositivos moviles - VERTICALES*/
+
+@media (max-width: 320px) {
+    /*------------------>HOME*/
+
+    /*HOME - Section 1 - Estilos*/
+    .contenedor{
+        margin-bottom: 100px;
+    }
+    .div_1{
+        margin-top:100px;
+        height: 400px;
+    }
+
+    .main_tittle{
+        font-size: 25vw;
+        padding-top: 50px;
+    }
+    
+
+        /*ESTILOS IMG - SECTION 1*/
+        .img1{
+            width: 180px;
+        }
+        .img2{
+            width: 140px;
+        }
+        .img3{
+            width: 100px;;
+        }
+
+    /*HOME - Section 2 - Estilos*/
+    .flex_1{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .porfolio_flex{
+        padding-bottom: 100px;
+    }
+
+        /*Tipografia de hover img*/
+        .porfolio_description{
+        font-size:16px;
+        }
+
+    /*HOME - Section 3 - Estilos*/
+    .sobre_flex{
+        flex-direction: column;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .cgs_img{
+        width: 285px;
+        
+    }
+
+    /*HOME - FOOTER - ESTILOS*/
+    .footertexto_1{
+        font-size: 13px;
+    }
+    .footertexto_2{
+        font-size: 8px;
+    }
+
+
+
+    /*------------------>PORFOLIO*/
+    .section1-porfolio{
+        margin-top: 70px;
+    }
+
+    .flex_1{
+        gap: 10px;
+    }
+
+    
+
+    /*------------------>CONTACTO*/
+
+    .flex_form1{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .div_4{
+        padding-bottom: 0px;
+    }
+}
